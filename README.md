@@ -15,11 +15,8 @@
     <a href="README.zh-tw.md">繁體中文 (Traditional Chinese)</a>
   </p>
   <h3>Give your coding agent access to your Figma data.<br/>Implement designs in any framework in one-shot.</h3>
-  <a href="https://npmcharts.com/compare/figma-developer-mcp?interval=30">
-    <img alt="weekly downloads" src="https://img.shields.io/npm/dm/figma-developer-mcp.svg">
-  </a>
-  <a href="https://github.com/GLips/Figma-Context-MCP/blob/main/LICENSE">
-    <img alt="MIT License" src="https://img.shields.io/github/license/GLips/Figma-Context-MCP" />
+  <a href="https://github.com/freshworks/GLips-Figma-Context-MCP/blob/main/LICENSE">
+    <img alt="MIT License" src="https://img.shields.io/github/license/freshworks/GLips-Figma-Context-MCP" />
   </a>
   <a href="https://framelink.ai/discord">
     <img alt="Discord" src="https://img.shields.io/discord/1352337336913887343?color=7389D8&label&logo=discord&logoColor=ffffff" />
@@ -59,7 +56,7 @@ Reducing the amount of context provided to the model helps make the AI more accu
 
 Many code editors and other AI clients use a configuration file to manage MCP servers.
 
-The `figma-developer-mcp` server can be configured by adding the following to your configuration file.
+The `@freshworks/figma-developer-mcp` server can be configured by adding the following to your configuration file.
 
 > NOTE: You will need to create a Figma access token to use this server. Instructions on how to create a Figma API access token can be found [here](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens).
 
@@ -68,9 +65,9 @@ The `figma-developer-mcp` server can be configured by adding the following to yo
 ```json
 {
   "mcpServers": {
-    "Framelink Figma MCP": {
+    "Freshworks Figma MCP": {
       "command": "npx",
-      "args": ["-y", "figma-developer-mcp", "--figma-api-key=YOUR-KEY", "--stdio"]
+      "args": ["-y", "@freshworks/figma-developer-mcp", "--figma-api-key=YOUR-KEY", "--stdio"]
     }
   }
 }
@@ -81,9 +78,9 @@ The `figma-developer-mcp` server can be configured by adding the following to yo
 ```json
 {
   "mcpServers": {
-    "Framelink Figma MCP": {
+    "Freshworks Figma MCP": {
       "command": "cmd",
-      "args": ["/c", "npx", "-y", "figma-developer-mcp", "--figma-api-key=YOUR-KEY", "--stdio"]
+      "args": ["/c", "npx", "-y", "@freshworks/figma-developer-mcp", "--figma-api-key=YOUR-KEY", "--stdio"]
     }
   }
 }
@@ -91,11 +88,11 @@ The `figma-developer-mcp` server can be configured by adding the following to yo
 
 Or you can set `FIGMA_API_KEY` and `PORT` in the `env` field.
 
-If you need more information on how to configure the Framelink Figma MCP server, see the [Framelink docs](https://www.framelink.ai/docs/quickstart?utm_source=github&utm_medium=referral&utm_campaign=readme).
+If you need more information on how to configure the Freshworks Figma MCP server, see the [original Framelink docs](https://www.framelink.ai/docs/quickstart?utm_source=github&utm_medium=referral&utm_campaign=readme) for reference.
 
 ## Star History
 
-<a href="https://star-history.com/#GLips/Figma-Context-MCP"><img src="https://api.star-history.com/svg?repos=GLips/Figma-Context-MCP&type=Date" alt="Star History Chart" width="600" /></a>
+<a href="https://star-history.com/#freshworks/GLips-Figma-Context-MCP"><img src="https://api.star-history.com/svg?repos=freshworks/GLips-Figma-Context-MCP&type=Date" alt="Star History Chart" width="600" /></a>
 
 ## Learn More
 

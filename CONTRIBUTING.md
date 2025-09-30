@@ -37,8 +37,8 @@ This focused approach ensures:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/GLips/Figma-Context-MCP.git
-   cd Figma-Context-MCP
+   git clone https://github.com/freshworks/GLips-Figma-Context-MCP.git
+   cd GLips-Figma-Context-MCP
    ```
 
 2. **Install dependencies:**

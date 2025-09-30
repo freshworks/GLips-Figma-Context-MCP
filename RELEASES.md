@@ -83,10 +83,10 @@ This project uses [Changesets](https://github.com/changesets/changesets) for aut
 
 - Published to npm with `latest` tag
 - Follow semver: `1.2.3`
-- Users install with: `npm install figma-developer-mcp`
+- Users install with: `npm install @freshworks/figma-developer-mcp`
 
 ### Beta Releases
 
 - Published to npm with `beta` tag
 - Follow semver with prerelease suffix: `1.2.3-beta.0`
-- Users install with: `npm install figma-developer-mcp@beta`
+- Users install with: `npm install @freshworks/figma-developer-mcp@beta`
