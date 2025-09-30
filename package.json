@@ -1,8 +1,7 @@
 {
   "name": "@freshworks/figma-developer-mcp",
   "version": "0.6.3",
-  "mcpName": "@freshworks/Figma-Context-MCP",	
-  "private": true,
+  "mcpName": "@freshworks/Figma-Context-MCP",
   "description": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.",
   "type": "module",
   "main": "dist/index.js",
