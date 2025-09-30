@@ -43,7 +43,10 @@
   "packageManager": "pnpm@10.10.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/freshworks/GLips-Figma-Context-MCP"
+    "url": "git+https://github.com/freshworks/GLips-Figma-Context-MCP.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://www.framelink.ai",
   "keywords": [
